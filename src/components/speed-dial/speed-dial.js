@@ -1,7 +1,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import FloatingActionButton from 'material-ui/FloatingActionButton';
+import Button from 'material-ui/Button';
 import { cyan500 } from 'material-ui/styles/colors';
 
 import BubbleListItem from '../bubble-list-item/bubble-list-item.js';
@@ -759,7 +759,8 @@ class SpeedDial extends React.Component {
 				</div>
 				<div className={classNameButtonWrap} style={this.getStylesBtn()}>
 					{this.renderPrimaryText()}
-					<FloatingActionButton
+					<Button
+						fab
 						ref="btn"
 						tabIndex={tabIndex}
 						{...btnProps}
