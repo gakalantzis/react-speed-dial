@@ -54,7 +54,7 @@
         "material-ui": "^1.0.0-beta.12",
         "material-ui-icons": "^1.0.0-beta.10",
         "react": "^15.0.0",
-        "react-dom": "^15.0.0",
+        "react-dom": "^15.0.0"
     },
     "devDependencies": {
         "@namics/eslint-config": "^2.0.0",
